@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Generated RSA keys
+src/keys/private_key.pem
+src/keys/public_key.pem
+
+# Generated license data
+src/licenses/license.json
+src/licenses/license.jwt
+
+# Logs
+*.log
+logs/
